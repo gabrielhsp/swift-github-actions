@@ -2,6 +2,10 @@
 # INCLUDE, EXCLUDE & IGNORED PATHS
 # ------------------------------------------------------------------------------
 
+# paths to include during linting.
+included:
+    - Actions
+
 # paths to ignore during linting.
 excluded:
     - Carthage
