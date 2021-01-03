@@ -1,0 +1,16 @@
+name: SwiftLint
+
+on:
+  pull_request:
+    paths:
+      - '.swiftlint.yml'
+      - '**/*.swift'
+
+jobs:
+  SwiftLint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Github Action for SwiftLint
+        uses: norio-nomura/action-swiftlint@3.2.1
+     
+          
