@@ -2,10 +2,6 @@
 # INCLUDE, EXCLUDE & IGNORED PATHS
 # ------------------------------------------------------------------------------
 
-# paths to include during linting.
-included:
-    - Shoestock
-
 # paths to ignore during linting.
 excluded:
     - Carthage
